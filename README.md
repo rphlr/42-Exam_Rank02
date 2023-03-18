@@ -108,7 +108,7 @@ When you are ready to submit your function/program, go into `Rendu` and push the
 4. After you git push, type `grademe` in the examshell for your project to be submitted. 
 
 # Exam IDE 💻
-You should be able to use both VSCode and Vim in the exam.
+You should be able to use both VSCode and Vim in the exam.<br>
 [![My Skills](https://skillicons.dev/icons?i=vscode,vim)](https://skillicons.dev)
 
 # Exam Practice 🔍
@@ -147,7 +147,7 @@ You can practice for the exam just like you would in the real exam by using this
 5. Congratulations on completing these steps! It is now time to commence the coding process. 😉
 
 # For curious
-Here is an additional section that breaks down the command in step 4 for those who are curious:
+Here is an additional section that breaks down the command in step 4 for those who are curious:<br>
 The command in step 4 is a Bash script that generates new `*.c` files with the basic information needed for each question. Here is a brief explanation of each part of the command:
 
 - `for dir in */*/; do`: This initiates a loop that iterates over each subdirectory in the cloned repository.
