@@ -6,7 +6,7 @@
 /*   By: rrouille <rrouille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 14:54:48 by rrouille          #+#    #+#             */
-/*   Updated: 2023/03/18 16:20:22 by rrouille         ###   ########.fr       */
+/*   Updated: 2023/03/20 09:33:57 by rrouille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,5 @@ void	ft_putstr(char *str)
 /*int	main(int argc, char **argv)
 {
 	if (argc == 2)
-	{
 		ft_putstr(argv[1]);
-	}
 }*/

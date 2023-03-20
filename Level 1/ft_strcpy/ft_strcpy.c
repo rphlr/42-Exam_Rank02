@@ -6,7 +6,7 @@
 /*   By: rrouille <rrouille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 14:54:48 by rrouille          #+#    #+#             */
-/*   Updated: 2023/03/18 17:43:49 by rrouille         ###   ########.fr       */
+/*   Updated: 2023/03/20 09:33:48 by rrouille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,9 +37,7 @@ char	*ft_strcpy(char *s1, char *s2)
 		strcpy(result2, first_argument);
 
 		if (strcmp(result1, result2) == 0)
-		{
 			printf("ft_strcpy and strcpy produced the same result: %s\n", result1);
-		}
 		else
 		{
 			printf("ft_strcpy and strcpy produced different results:\n");
@@ -48,7 +46,5 @@ char	*ft_strcpy(char *s1, char *s2)
 		}
 	}
 	else
-	{
 		printf("Usage: %s <string> <string>\n", argv[0]);
-	}
 }*/
