@@ -6,7 +6,7 @@
 /*   By: rrouille <rrouille@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/03/18 14:54:49 by rrouille          #+#    #+#             */
-/*   Updated: 2023/03/20 15:45:43 by rrouille         ###   ########.fr       */
+/*   Updated: 2023/03/22 16:40:22 by rrouille         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,6 @@ int	ft_atoi(const char *str)
 	{
 		if (*str == '-')
 			negative *= -1;
-		str++;
 	}
 	while (*str >= '0' && *str <= '9')
 		result = result * 10 + *str++ - '0';
